@@ -2,7 +2,7 @@ const express=require('express');
 const mongoose=require('mongoose');
 const dotenv=require('dotenv').config();
 const app=express();
-const authControllers=require('../server/Controllers/Authentication')
+const authControllers=require('./Controllers/Authentication')
 
 
 app.use(express.json());
